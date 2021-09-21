@@ -32,11 +32,13 @@ li a:hover {
 }
 
 .imageBorder {
-    border: 5px solid black;
+    border: 5px solid bisque;
 }
 
 div,p {
     font-family: 'Times New Roman', Times, serif;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .navBar {
