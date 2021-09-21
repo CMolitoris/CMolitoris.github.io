@@ -27,7 +27,7 @@ li a:hover {
 }
 
 .resize {
-    width: 300px;
+    width: 250px;
     height: auto;
 }
 
@@ -44,4 +44,10 @@ div,p {
 .navBar {
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.topBottomPadding {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 25px;
 }
