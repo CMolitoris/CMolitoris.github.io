@@ -6,6 +6,7 @@ ul {
     padding: 5px;
     width: 200px;
     background-color: bisque;
+    border: gray;
 }
 
 li a {
@@ -51,3 +52,14 @@ div,p {
     padding-bottom: 10px;
     line-height: 25px;
 }
+
+.tableProject {
+    background-color: bisque;
+    border-color: burlywood;
+}
+
+.picContainer {
+    
+    overflow-y: scroll;
+}
+
