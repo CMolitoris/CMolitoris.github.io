@@ -53,6 +53,10 @@ div,p {
     line-height: 25px;
 }
 
+.leftRightMargin {
+    
+}
+
 .tableColor {
     background-color: bisque;
     border-color: burlywood;
@@ -64,8 +68,18 @@ div,p {
 
 .content-list {
     border-collapse: collapse;
-    margin: 25px 0;
-    font-size: 0.9em;
+    font-size: 1.1em;
+    min-width: 400px;
+    border-radius: 5px 5px 5px 5px;
+    overflow:  hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+
+.content-list-top {
+    font-weight: bold;
+    font-family: sans-serif;
+    border-collapse: collapse;
+    font-size: 1em;
     min-width: 400px;
     border-radius: 5px 5px 5px 5px;
     overflow:  hidden;
@@ -75,7 +89,6 @@ div,p {
 .content-table {
     
     border-collapse: collapse;
-    margin: 25px 0;
     font-size: 0.9em;
     min-width: 400px;
     border-radius: 5px 5px 0 0;
@@ -109,6 +122,15 @@ div,p {
 
 .content-table tbody tr.active-row {
     font-weight: bold;
-    color: black;
+    color: burlywood;
 }
+
+.content-table a:visited {
+    color: green;
+}
+
+a:link {
+    color: green;
+}
+
 
